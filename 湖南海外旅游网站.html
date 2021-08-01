@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>旅游网站</title>
+    <link rel="stylesheet" href=""/>
+    <script src="../JQuery/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css"/>
+</head>
+<body>
+    <!--导航-->
+    <nav id="nav">
+        <div class="nav_cont">
+            <div class="nav_left">
+                <img src="img/top-bq-scicon.jpg" alt="图片未显示"/>
+                <a href="#">收藏湖南海外旅游官网</a>
+                <img src="img/top-bq-qhicon.jpg" alt="图片未显示"/>
+            </div>
+
+            <div class="nav_right">
+                <a class="dl" href="#">登陆</a><a href="#">注册</a>
+                <span>您好，欢迎来到湖南海外旅游！</span>
+                <a class="dl-wx" href="#">
+                    <img src="img/top-bq-wxicon.jpg" alt="图片未显示"/>
+                    &nbsp;微信
+                <div class="wx"></div>
+                </a>
+                <a class="weiB" href="#"><img src="img/top-bq-wbicon.jpg" alt="图片未显示"/>&nbsp;微博</a>
+            </div>
+        </div>
+    </nav>
+    <!--logo部分-->
+    <div id="search">
+        <div class="search_con">
+            <div class="search-con-left">
+                <a href="#"><img src="img/top-logo.jpg" alt="图片未显示"/></a>
+            </div>
+
+
+            <div class="search-con-center">
+                <form action="">
+                    <input type="search"/>
+                    <input type="submit" value=""/>
+                </form>
+                <p>
+                    <a href="#">泰国</a>&nbsp;&nbsp;<a href="#">日本</a>&nbsp;
+                    <a href="#">澳洲</a>&nbsp;&nbsp;<a href="#">普吉岛</a>&nbsp;
+                    <a href="#">德国</a>&nbsp;&nbsp;<a href="#">三亚</a>&nbsp;
+                    <a href="#">台湾</a>
+                </p>
+            </div>
+
+
+            <div class="search-con-right"><img src="img/top-phone.jpg" alt="图片未显示"/></div>
+        </div>
+    </div>
+    <!--下拉菜单-->
+    <div id="mu_xl">
+        <div class="cont">
+            <div class="cont_1">
+                <ul class="cont_ul">
+                    <li class="hover">
+                        <a href="#">出国跟团游</a>
+                        <div class="menu">
+                            <p>
+                                <span>台湾港澳：</span>
+                                <a href="#">台湾</a> | <a href="#">香港</a> |
+                                <a href="#">澳门</a> </p>
+                            <p>
+                                <span>东南亚：</span>
+                                <a href="#">泰国</a> | <a href="#">新加坡</a> |
+                                <a href="#">马来西亚</a> | <a href="#">越南</a> |
+                                <a href="#">柬埔寨</a> | <a href="#">印度</a> |
+                                <a href="#">尼泊尔</a> | <a href="#">老郭</a>
+                            </p>
+                            <p>
+                                <span>美洲：</span>
+                                <a href="#">美国</a> | <a href="#">加拿大</a> |
+                                <a href="#">墨西哥</a> | <a href="#">巴西</a> |
+                                <a href="#">阿根廷</a>
+                            </p>
+                            <p>
+                                <span>大洋洲：</span>
+                                <a href="#">澳大利亚</a> | <a href="#">新西兰</a> |
+                                <a href="#">斐济</a>
+                            </p>
+                            <p>
+                                <span>中东非洲：</span>
+                                <a href="#">迪拜</a> | <a href="#">南非</a> |
+                                <a href="#">土耳其</a>| <a href="#">以色列</a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#">出境自由游</a>
+                        <div class="menu">
+                            <p>
+                                <span>美洲：</span>
+                                <a href="#">美国</a> | <a href="#">加拿大</a> |
+                                <a href="#">墨西哥</a> | <a href="#">巴西</a> |
+                                <a href="#">阿根廷</a>
+                            </p>
+                            <p>
+                                <span>大洋洲：</span>
+                                <a href="#">澳大利亚</a> | <a href="#">新西兰</a> |
+                                <a href="#">斐济</a>
+                            </p>
+                            <p>
+                                <span>中东非洲：</span>
+                                <a href="#">迪拜</a> | <a href="#">南非</a> |
+                                <a href="#">土耳其</a>| <a href="#">以色列</a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#">国内跟团游</a>
+                        <div class="menu">
+                            <p>
+                                <span>美洲：</span>
+                                <a href="#">美国</a> | <a href="#">加拿大</a> |
+                                <a href="#">墨西哥</a> | <a href="#">巴西</a> |
+                                <a href="#">阿根廷</a>
+                            </p>
+                            <p>
+                                <span>大洋洲：</span>
+                                <a href="#">澳大利亚</a> | <a href="#">新西兰</a> |
+                                <a href="#">斐济</a>
+                            </p>
+                            <p>
+                                <span>中东非洲：</span>
+                                <a href="#">迪拜</a> | <a href="#">南非</a> |
+                                <a href="#">土耳其</a> | <a href="#">以色列</a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#">国内自由游</a>
+                        <div class="menu">
+                            <p>
+                                <span>美洲：</span>
+                                <a href="#">美国</a> | <a href="#">加拿大</a> |
+                                <a href="#">墨西哥</a> | <a href="#">巴西</a> |
+                                <a href="#">阿根廷</a>
+                            </p>
+                            <p>
+                                <span>大洋洲：</span>
+                                <a href="#">澳大利亚</a> | <a href="#">新西兰</a> |
+                                <a href="#">斐济</a>
+                            </p>
+                            <p>
+                                <span>中东非洲：</span>
+                                <a href="#">迪拜</a> | <a href="#">南非</a> |
+                                <a href="#">土耳其</a> | <a href="#">以色列</a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#">海南周边游</a>
+                        <div class="menu">
+                            <p>
+                                <span>美洲：</span>
+                                <a href="#">美国</a> | <a href="#">加拿大</a> |
+                                <a href="#">墨西哥</a> | <a href="#">巴西</a> |
+                                <a href="#">阿根廷</a>
+                            </p>
+                            <p>
+                                <span>大洋洲：</span>
+                                <a href="#">澳大利亚</a> | <a href="#">新西兰</a> |
+                                <a href="#">斐济</a>
+                            </p>
+                            <p>
+                                <span>中东非洲：</span>
+                                <a href="#">迪拜</a> | <a href="#">南非</a> |
+                                <a href="#">土耳其</a> | <a href="#">以色列</a>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="cont_2">
+                <a href="#">泰国</a>
+                <a href="#">台湾</a>
+                <a href="#">蒙古</a>
+            </div>
+        </div>
+    </div>
+    <!--背景轮播图-->
+    <div id="bg">
+        <div class="bg1" style="background:url('img/tour-bg1.jpg') right"></div>
+        <div class="bg1" style="background:url('img/tour-bg2.jpg') right"></div>
+        <div class="bg1" style="background:url('img/tour-bg3.jpg') right"></div>
+        <div class="bg1" style="background:url('img/tour-bg4.jpg') right"></div>
+        <div class="bg1" style="background:url('img/tour-bg5.jpg') right"></div>
+        <div class="bg1" style="background:url('img/tour-bg6.jpg') right"></div>
+        <div class="bg1" style="background:url('img/tour-bg7.jpg') right"></div>
+        <div class="bg1" style="background:url('img/tour-bg8.jpg') right"></div>
+        <ul class="bg_btn">
+            <li class="hover_btn"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!--侧边信息栏-->
+    <div class="side">
+        <ul class="side-ul">
+            <li>
+                <a href="#"><img src="img/swt.png" alt="图片未显示"/></a>
+                <div class="side-zx"></div>
+            </li>
+            <li>
+                <a href="#"><img src="img/96556.png" alt="图片未显示"/></a>
+                <div class="side-dh"></div>
+            </li>
+            <li>
+                <a href="#"><img src="img/qq.png" alt="图片未显示"/></a>
+                <div class="side-qq"></div>
+            </li>
+            <li>
+                <a href="#"><img src="img/map.png" alt="图片未显示"/></a>
+                <div class="side-dz"></div>
+            </li>
+            <li><a href="#"><img src="img/top.png" alt="图片未显示"/></a></li>
+        </ul>
+    </div>
+    <!--内容区1-->
+    <div id="con-sen-sen">
+       <p class="con-p"><a href="#"><img src="img/main-djrmtop.jpg" alt="图片未显示"/></a></p>
+        <div class="con-sen">
+            <div class="con-sen-1">
+                <img src="img/con-1.jpg" alt="图片未显示"/>
+                <p><a href="#">&nbsp;临海漫步三亚双飞5日游</a></p>
+                <p><span>￥1999</span>&nbsp;起&nbsp;&nbsp;</p>
+
+            </div>
+            <div class="con-sen-1">
+                <img src="img/con-2.jpg" alt="图片未显示"/>
+                <p><a href="#">&nbsp;日本本州东瀛风情6天之旅</a></p>
+                <p><span>￥6680</span>&nbsp;起&nbsp;&nbsp;</p>
+            </div>
+            <div class="con-sen-1">
+                <img src="img/con-3.jpg" alt="图片未显示"/>
+                <p><a href="#">&nbsp;印象稻城-重庆稻城亚丁4飞5天</a></p>
+                <p><span>￥3899</span>&nbsp;起&nbsp;&nbsp;</p>
+            </div>
+            <div class="con-sen-1">
+                <img src="img/con-4.jpg" alt="图片未显示"/>
+                <p><a href="#">【圣洁·色达】成都-观音庙-色达佛学院双卧8日游</a></p>
+                <p><span>￥2199</span>&nbsp;起&nbsp;&nbsp;</p>
+            </div>
+        </div>
+    </div>
+    <!--内容区2-->
+    <div class="main-tour">
+        <div class="main-tour-cen">
+            <div class="main-img">
+                <a href="#"><img src="img/main-cjlytop.jpg" alt="图片未显示"/></a>
+            </div>
+            <div class="main-nav">
+                <ul class="main-nav-ul">
+                    <li><a href="#">海岛</a></li><li><a href="#">台湾</a></li>
+                    <li><a href="#">欧洲</a></li><li><a href="#">美国</a></li>
+                    <li><a href="#">迪拜</a></li><li><a href="#">港澳</a></li>
+                    <li><a href="#">南北极</a></li><li><a href="#">泰国</a></li>
+                    <li><a href="#">新加坡</a></li><li><a href="#">日本</a></li>
+                    <li><a href="#">澳大利亚</a></li>
+                </ul>
+            </div>
+            <div class="main-con">
+                <div class="main-con-l">
+                    <div class="main-con-lt">
+                        <span>出境游跟团热门目的地</span>
+                        <ul class="lt-ul">
+                            <li><a href="#">泰新马</a></li>
+                            <li><a href="#">美国</a></li>
+                            <li><a href="#">澳新</a></li>
+                        </ul>
+                        <ul class="lt-ul">
+                            <li><a href="#">欧洲</a></li>
+                            <li><a href="#">台湾</a></li>
+                            <li><a href="#">海岛</a></li>
+                        </ul>
+                    </div>
+                    <div class="main-con-lt main-con-lc">
+                        <span>出境游跟团热门景点</span>
+                        <ul class="lt-ul">
+                            <li><a href="#">泰国</a></li>
+                            <li><a href="#">新加坡</a></li>
+                            <li><a href="#">日本</a></li>
+                        </ul>
+                        <ul class="lt-ul">
+                            <li><a href="#">越柬挝</a></li>
+                            <li><a href="#">迪拜</a></li>
+                            <li><a href="#">美国</a></li>
+                        </ul>
+                        <ul class="lt-ul">
+                            <li><a href="#">澳大利亚</a></li>
+                            <li><a href="#">新西兰</a></li>
+                            <li><a href="#">俄罗斯</a></li>
+                        </ul>
+                        <ul class="lt-ul">
+                            <li><a href="#">法国</a></li>
+                            <li><a href="#">意大利 </a></li>
+                            <li><a href="#">瑞士</a></li>
+                        </ul>
+                        <ul class="lt-ul">
+                            <li><a href="#">西班牙</a></li>
+                            <li><a href="#">台湾</a></li>
+                            <li><a href="#">普吉岛</a></li>
+                        </ul>
+                        <ul class="lt-ul">
+                            <li><a href="#">苏梅岛</a></li>
+                            <li><a href="#">美娜多</a></li>
+                        </ul>
+                    </div>
+                    <div class="main-con-lt main-con-lb">
+                        <span>出境热门玩法</span>
+                        <ul class="lt-ul">
+                            <li><a href="#">自由行</a></li>
+                            <li><a href="#">老顽童</a></li>
+                            <li><a href="#">包机</a></li>
+                        </ul>
+                        <ul class="lt-ul">
+                            <li><a href="#">温泉</a></li>
+                            <li><a href="#">特价</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main-con-r">
+                    <div class="main-rl">
+                        <ul class="main-rl-img">
+                            <li>
+                                <img src="img/main-xxl.jpg" alt="图片未显示"/>
+                                <a href="#">&nbsp;新西兰南北双岛奇幻跟队自驾游12日</a>
+                                <p>￥29800&nbsp;<span>起</span></p>
+                            </li>
+                            <li>
+                                <img src="img/main-pty.jpg" alt="图片未显示"/>
+                                <a href="#">&nbsp;艺术与激情之地西班牙+葡萄牙跟队自驾游14日</a>
+                                <p>￥23800&nbsp;<span>起</span></p></li>
+                        </ul>
+                        <ul class="main-rl-img">
+                            <li>
+                                <img src="img/main-hbd.jpg" alt="图片未显示"/>
+                                <a href="#">&nbsp;奇幻星球-环冰岛跟队自驾游11日</a>
+                                <p>￥23800&nbsp;<span>起</span></p>
+                            </li>
+                            <li>
+                                <img src="img/main-oz.jpg" alt="图片未显示"/>
+                                <a href="#">&nbsp;一价全含金牌欧洲四国12天-单点-意签</a>
+                                <p>￥16980&nbsp;<span>起</span></p></li>
+                        </ul>
+                    </div>
+                    <div class="main-rr">
+                        <img src="img/main-hn.jpg" alt="图片未显示"/>
+                        <p>&nbsp;海岛游<i>起</i><span>￥3999</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-tour">
+        <div class="main-tour-cen">
+            <div class="main-img">
+                <a href="#"><img src="img/main-cjlytop.jpg" alt="图片未显示"/></a>
+            </div>
+            <div class="main-nav">
+                <ul class="main-nav-ul">
+                    <li><a href="#">云南</a></li><li><a href="#">三亚</a></li>
+                    <li><a href="#">广东</a></li><li><a href="#">厦门</a></li>
+                    <li><a href="#">贵州</a></li><li><a href="#">新疆</a></li>
+                    <li><a href="#">广西</a></li><li><a href="#">湖南</a></li>
+                    <li><a href="#">青大</a></li><li><a href="#">重庆三峡</a></li>
+                    <li><a href="#">东三省</a></li>
+                </ul>
+            </div>
+            <div class="main-con">
+                <div class="main-con-l">
+                    <div class="main-con-lt">
+                        <span>国内游跟团热门目的地</span>
+                        <ul class="lt-ul">
+                            <li><a href="#">北京</a></li>
+                            <li><a href="#">三亚</a></li>
+                            <li><a href="#">贵州</a></li>
+                        </ul>
+                        <ul class="lt-ul">
+                            <li><a href="#">广东</a></li>
+                            <li><a href="#">厦门</a></li>
+                            <li><a href="#">云南</a></li>
+                        </ul>
+                    </div>
+                    <div class="main-con-lt main-con-lc">
+                        <span>国内游跟团热门景点</span>
+                        <ul class="lt-ul">
+                            <li><a href="#">北京</a></li>
+                            <li><a href="#">海南</a></li>
+                            <li><a href="#">三亚</a></li>
+                        </ul>
+                        <ul class="lt-ul">
+                            <li><a href="#">广东</a></li>
+                            <li><a href="#">放鸡岛</a></li>
+                            <li><a href="#"> 广州长隆</a></li>
+                        </ul>
+                        <ul class="lt-ul">
+                            <li><a href="#">海陵岛</a></li>
+                            <li><a href="#">珠海长隆</a></li>
+                            <li><a href="#">厦门</a></li>
+                        </ul>
+                        <ul class="lt-ul">
+                            <li><a href="#">九寨</a></li>
+                            <li><a href="#">云南</a></li>
+                            <li><a href="#">大理</a></li>
+                        </ul>
+                        <ul class="lt-ul">
+                            <li><a href="#">丽江</a></li>
+                            <li><a href="#">杭州</a></li>
+                            <li><a href="#">上海</a></li>
+                        </ul>
+                        <ul class="lt-ul">
+                            <li><a href="#">黄山</a></li>
+                        </ul>
+                    </div>
+                    <div class="main-con-lt main-con-lb">
+                        <span>国内游热门玩法</span>
+                        <ul class="lt-ul">
+                            <li><a href="#">自由行</a></li>
+                            <li><a href="#">老顽童</a></li>
+                            <li><a href="#">包机</a></li>
+                        </ul>
+                        <ul class="lt-ul">
+                            <li><a href="#">温泉</a></li>
+                            <li><a href="#">特价</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main-con-r">
+                    <div class="main-rl">
+                        <ul class="main-rl-img">
+                            <li>
+                                <img src="img/main-cd.jpg" alt="图片未显示"/>
+                                <a href="#">&nbsp;【圣洁·色达】成都-观音庙-色达佛学院双卧8日游</a>
+                                <p>￥29800&nbsp;<span>起</span></p>
+                            </li>
+                            <li>
+                                <img src="img/main-hy.jpg" alt="图片未显示"/>
+                                <a href="#">&nbsp;私人定制-越野穿沙纵情胡杨林双飞双卧六日游</a>
+                                <p>￥23800&nbsp;<span>起</span></p></li>
+                        </ul>
+                        <ul class="main-rl-img">
+                            <li>
+                                <img src="img/main-bl.jpg" alt="图片未显示"/>
+                                <a href="#">&nbsp;伊宁薰衣草-巴音布鲁克天鹅湖-空中草原那拉</a>
+                                <p>￥23800&nbsp;<span>起</span></p>
+                            </li>
+                            <li>
+                                <img src="img/main-bd.jpg" alt="图片未显示"/>
+                                <a href="#">&nbsp;额济纳旗 巴丹吉林沙漠 张掖 酒泉双飞双动7日游</a>
+                                <p>￥16980&nbsp;<span>起</span></p></li>
+                        </ul>
+                    </div>
+                    <div class="main-rr">
+                        <img src="img/main-sy.jpg" style="height:510px;width:280px" alt="图片未显示"/>
+                        <p>&nbsp;海岛游<i>起</i><span>￥3999</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--内容区3-->
+    <div class="main-ad">
+        <div class="main-t"><a href="#"><img src="img/icon-ad.jpg" alt="图片未显示"/></a></div>
+        <div class="main-b">
+            <div class="main-bf main-margin"><a href="#"><img src="img/icon-visa.jpg" alt="图片未显示"/></a></div>
+            <div class="main-bc main-margin"><a href="#"><img src="img/icon-yg.jpg" alt="图片未显示"/></a></div>
+            <div class="main-bc main-margin"><a href="#"><img src="img/icon-fg.jpg" alt="图片未显示"/></a></div>
+            <div class="main-bc main-margin"><a href="#"><img src="img/icon-dg.jpg" alt="图片未显示"/></a></div>
+            <div class="main-bc main-margin"><a href="#"><img src="img/icon-fg.jpg" alt="图片未显示"/></a></div>
+            <div class="main-bc main-margin"><a href="#"><img src="img/icon-hg.jpg" alt="图片未显示"/></a></div>
+            <div class="main-br main-margin"><a href="#"><img src="img/icon-jt.png" alt="图片未显示"/></a></div>
+        </div>
+    </div>
+    <!--内容区4-->
+    <div class="tour-dr">
+        <div class="tour-f">
+            <a href="#"><img src="img/drlytop.png" alt="图片未显示"/></a>
+            <ul class="tour-list">
+                <li class="hover-tour-list"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <div class="tour-list-cen" style="display:block;">
+                <div class="tour-cen-dzf">
+                    <p class="p1">
+                        <img src="img/drlybticon.png" alt="图片未显示"/>
+                        <a href="#">行走中的巴尔干</a>
+                    </p>
+
+                    <p class="p2">
+                        <img src="img/dr-n.jpg" alt="图片未显示"/>
+                        <span><img src="img/dr-z.png" alt="图片未显示"/>&nbsp;出发日期：2018/1/5</span>
+                    <h4 class="rm">ReadMore</h4>
+                    </p>
+
+                    <p class="p3">
+                        <a href="#">
+                            <img src="img/dr-f.png" alt="图片未显示"/>
+                        </a>
+                    </p>
+                </div>
+                <div class="tour-cen-dzc tour-cen-dzf">
+                    <p class="p3" style="margin-top:-8px">
+                        <a href="#">
+                            <img src="img/tour-1.png" alt="图片未显示"/>
+                        </a>
+                    </p>
+                    <p class="p1">
+                        <img src="img/drlybticon.png" alt="图片未显示"/>
+                        <a href="#">莫问天涯远</a>
+                    </p>
+                    <p class="p2">
+                        <img src="img/tour-2.jpg" alt="图片未显示"/>
+                        <span><img src="img/dr-z.png" alt="图片未显示"/>&nbsp;出发日期：2018/1/5</span>
+                    <h4 class="rm">ReadMore</h4>
+                    </p>
+                </div>
+                <div class="tour-cen-dzr tour-cen-dzf">
+                    <p class="p1">
+                        <img src="img/drlybticon.png" alt="图片未显示"/>
+                        <a href="#">西北自由行</a>
+                    </p>
+                    <p class="p2">
+                        <img src="img/tour-3.jpg" alt="图片未显示"/>
+                        <span><img src="img/dr-z.png" alt="图片未显示"/>&nbsp;出发日期：2017/2/13</span>
+                    <h4 class="rm">ReadMore</h4>
+                    </p>
+                    <p class="p3">
+                        <a href="#">
+                            <img src="img/tour-4.jpg" alt="图片未显示"/>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="tour-list-cen" >
+                <div class="tour-cen-dzf">
+                    <p class="p1">
+                        <img src="img/drlybticon.png" alt="图片未显示"/>
+                        <a href="#">浪漫雪国 本州6日游</a>
+                    </p>
+
+                    <p class="p2">
+                        <img src="img/tour-5.jpg" alt="图片未显示"/>
+                        <span><img src="img/dr-z.png" alt="图片未显示"/>&nbsp;出发日期：2017/2/13</span>
+                    <h4 class="rm">ReadMore</h4>
+                    </p>
+
+                    <p class="p3">
+                        <a href="#">
+                            <img src="img/tour-6.jpg" alt="图片未显示"/>
+                        </a>
+                    </p>
+                </div>
+                <div class="tour-cen-dzc tour-cen-dzf">
+                    <p class="p3" style="margin-top:-8px">
+                        <a href="#">
+                            <img src="img/tour-7.jpg" alt="图片未显示"/>
+                        </a>
+                    </p>
+                    <p class="p1">
+                        <img src="img/drlybticon.png" alt="图片未显示"/>
+                        <a href="#">传统与时尚并蓄的泰国</a>
+                    </p>
+                    <p class="p2">
+                        <img src="img/tour-8.jpg" alt="图片未显示"/>
+                        <span><img src="img/dr-z.png" alt="图片未显示"/>&nbsp;出发日期：2017/2/13</span>
+                    <h4 class="rm">ReadMore</h4>
+                    </p>
+                </div>
+                <div class="tour-cen-dzr tour-cen-dzf">
+                    <p class="p1">
+                        <img src="img/drlybticon.png" alt="图片未显示"/>
+                        <a href="#">九寨沟</a>
+                    </p>
+                    <p class="p2">
+                        <img src="img/tour-9.jpg" alt="图片未显示"/>
+                        <span><img src="img/dr-z.png" alt="图片未显示"/>&nbsp;出发日期：2017/2/12</span>
+                    <h4 class="rm">ReadMore</h4>
+                    </p>
+                    <p class="p3">
+                        <a href="#">
+                            <img src="img/tour-10.jpg" alt="图片未显示"/>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="tour-list-cen" >
+                <div class="tour-cen-dzf">
+                    <p class="p1">
+                        <img src="img/drlybticon.png" alt="图片未显示"/>
+                        <a href="#">初识三亚</a>
+                    </p>
+
+                    <p class="p2">
+                        <img src="img/tour-5.jpg" alt="图片未显示"/>
+                        <span><img src="img/dr-z.png" alt="图片未显示"/>&nbsp;出发日期：2017/2/12</span>
+                    <h4 class="rm">ReadMore</h4>
+                    </p>
+
+                    <p class="p3">
+                        <a href="#">
+                            <img src="img/tour-11.jpg" alt="图片未显示"/>
+                        </a>
+                    </p>
+                </div>
+                <div class="tour-cen-dzc tour-cen-dzf">
+                    <p class="p3" style="margin-top:-8px">
+                        <a href="#">
+                            <img src="img/tour-12.jpg" alt="图片未显示"/>
+                        </a>
+                    </p>
+                    <p class="p1">
+                        <img src="img/drlybticon.png" alt="图片未显示"/>
+                        <a href="#">相遇不易在巴厘</a>
+                    </p>
+                    <p class="p2">
+                        <img src="img/tour-13.jpg" alt="图片未显示"/>
+                        <span><img src="img/dr-z.png" alt="图片未显示"/>&nbsp;出发日期：2017/2/12</span>
+                    <h4 class="rm">ReadMore</h4>
+                    </p>
+                </div>
+                <div class="tour-cen-dzr tour-cen-dzf">
+                    <p class="p1">
+                        <img src="img/drlybticon.png" alt="图片未显示"/>
+                        <a href="#">多彩贵州，寻梦之旅</a>
+                    </p>
+                    <p class="p2">
+                        <img src="img/tour-14.jpg" alt="图片未显示"/>
+                        <span><img src="img/dr-z.png" alt="图片未显示"/>&nbsp;出发日期：2016/11/16</span>
+                    <h4 class="rm">ReadMore</h4>
+                    </p>
+                    <p class="p3">
+                        <a href="#">
+                            <img src="img/tour-15.jpg" alt="图片未显示"/>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="tour-list-cen">
+                <div class="tour-cen-dzf">
+                    <p class="p1">
+                        <img src="img/drlybticon.png" alt="图片未显示"/>
+                        <a href="#">加勒比游乐园一日游</a>
+                    </p>
+
+                    <p class="p2">
+                        <img src="img/tour-5.jpg" alt="图片未显示"/>
+                        <span><img src="img/dr-z.png" alt="图片未显示"/>&nbsp;出发日期：2016/8/31</span>
+                    <h4 class="rm">ReadMore</h4>
+                    </p>
+
+                    <p class="p3">
+                        <a href="#">
+                            <img src="img/tour-16.jpg" alt="图片未显示"/>
+                        </a>
+                    </p>
+                </div>
+                <div class="tour-cen-dzc tour-cen-dzf">
+                    <p class="p3" style="margin-top:-8px">
+                        <a href="#">
+                            <img src="img/tour-17.jpg" alt="图片未显示"/>
+                        </a>
+                    </p>
+                    <p class="p1">
+                        <img src="img/drlybticon.png" alt="图片未显示"/>
+                        <a href="#">安静的美男子---奥兰多</a>
+                    </p>
+                    <p class="p2">
+                        <img src="img/tour-18.jpg" alt="图片未显示"/>
+                        <span><img src="img/dr-z.png" alt="图片未显示"/>&nbsp;出发日期：2016/7/20</span>
+                    <h4 class="rm">ReadMore</h4>
+                    </p>
+                </div>
+                <div class="tour-cen-dzr tour-cen-dzf">
+                    <p class="p1">
+                        <img src="img/drlybticon.png" alt="图片未显示"/>
+                        <a href="#">恋恋不忘苏梅岛</a>
+                    </p>
+                    <p class="p2">
+                        <img src="img/tour-19.jpg" alt="图片未显示"/>
+                        <span><img src="img/dr-z.png" alt="图片未显示"/>&nbsp;出发日期：2016/6/30</span>
+                    <h4 class="rm">ReadMore</h4>
+                    </p>
+                    <p class="p3">
+                        <a href="#">
+                            <img src="img/tour-20.jpg" alt="图片未显示"/>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--内容区5-->
+    <div class="main-xc">
+        <div class="main-xcf">
+            <div class="main-xcFt">
+                <div class="main-xcFtf"><a href="#"><img src="img/main-hwxwtop.png" alt="图片未显示"/></a></div>
+                <div class="main-xcFtr">
+                    <a href="#"><img src="img/main-hwxwtopyjt.jpg" alt=""/></a>
+                    <a href="#"><img src="img/main-hwxwtopzjt.jpg" alt=""/></a></div>
+            </div>
+            <div class="main-xcFb">
+                <div class="main-xcFbf"><a href="#"><img src="img/main-bag.jpg" alt="图片未显示"/></a></div>
+                <div class="main-xcFbr">
+                    <p>湖南海外旅游董事长蒋燕妮荣获“湖南省十</p>
+                    <ul class="main-xcFbr-ul">
+                        <li><a href="#"><span>【海外新闻】</span>1.湖南海外旅游8-10月产品合集</a></li>
+                        <li><a href="#"><span>【海外新闻】</span>2.热到窒息的长沙要下雪了，你来看吗？</a></li>
+                        <li><a href="#"><span>【海外新闻】</span>3.北京，你好 | 新华联旅游&新华联会展盛大开业</a>]</li>
+                        <li><a href="#"><span>【海外新闻】</span>7.湖南海外旅游8-10月产品合集</a></li>
+                        <li><a href="#"><span>【海外新闻】</span>8.热到窒息的长沙要下雪了，你来看吗？</a></li>
+                        <li><a href="#"><span>【微信好文】</span>4.朋友圈发这样的照片，真的很加分</a></li>
+                        <li><a href="#"><span>【微信好文】</span>5.热到要去非洲避暑？广东人笑了</a></li>
+                        <li><a href="#"><span>【微信好文】</span>6.重磅！一大波外国友人来袭了，很多人</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-xcr">
+            <a href="#"><img src="img/main-hwqxpp.png" alt=""/></a>
+            <a href="#"><img src="img/main-childlogo.jpg" alt=""/></a>
+        </div>
+    </div>
+    <!--内容区6-->
+    <footer id="last-foot">
+        <div class="last-top">
+            <div class="last-top-1">
+                <div class="last-top-ad"> <a href="#"><img src="img/bqBoth1.png" alt="图片未显示"/>
+                    <p>服务承诺</p></a></div>
+                <div class="last-top-ad"> <a href="#"><img src="img/bqBoth2.png" alt="图片未显示"/>
+                    <p>全国覆盖</p></a></div>
+                <div class="last-top-ad"> <a href="#"><img src="img/bqBoth3.png" alt="图片未显示"/>
+                    <p>产品丰富</p></a></div>
+                <div class="last-top-ad"> <a href="#"><img src="img/bqBoth4.png" alt="图片未显示"/>
+                    <p>贴心服务</p></a></div>
+                <div class="last-top-ad"> <a href="#"><img src="img/bqBoth5.png" alt="图片未显示"/>
+                    <p>客户感言</p></div>
+                <div class="last-top-ad"> <a href="#"><img src="img/bqBoth6.png" alt="图片未显示"/>
+                    <p>行业先锋</p></a></div>
+                <div class="last-top-ad"> <a href="#"><img src="img/bqBoth7.png" alt="图片未显示"/>
+                    <p>明星同行</p></a></div>
+                <div class="last-top-ad"><a href="#"><img src="img/bqBoth8.png" alt="图片未显示"/>
+                    <p>精致服务</p></a></div>
+            </div>
+        </div>
+        <div class="last-center">
+            <div class="last-center-1">
+                <div class="last-center-ad">
+                    <ul class="last-ul">
+                        <li class="last-first">预定须知</li>
+                        <li><a href="#">纯玩是什么意思？</a></li>
+                        <li><a href="#">单房差是什么？</a></li>
+                        <li><a href="#">双飞、双卧都是什么意思？</a></li>
+                        <li><a href="#">独立成团可以吗？</a></li>
+                    </ul>
+                </div>
+                <div class="last-center-ad">
+                    <ul class="last-ul">
+                        <li class="last-first">付款和发票</li>
+                        <li><a href="#"> 签约可以刷卡吗？</a></li>
+                        <li><a href="#">付款方式有哪些？</a></li>
+                        <li><a href="#">是否可提供发票？</a></li>
+                        <li><a href="#"> 如何获取发票？</a></li>
+                    </ul>
+                </div>
+                <div class="last-center-ad">
+                    <ul class="last-ul">
+                        <li class="last-first">签署旅游合同</li>
+                        <li><a href="#">有旅游合同范本下载吗？</a></li>
+                        <li><a href="#">能传真签合同吗？</a></li>
+                        <li><a href="#">可以不签合同吗？</a></li>
+                        <li><a href="#">门市签约流程</a></li>
+                    </ul>
+                </div>
+                <div class="last-center-ad">
+                    <ul class="last-ul">
+                        <li class="last-first">签证办理的相关问题</li>
+                        <li><a href="#"> 签证办理流程</a></li>
+                        <li><a href="#">怎么办签证</a></li>
+                        <li><a href="#">签证办理时间</a></li>
+                        <li><a href="#"> 办理签证需要准备哪些材料</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="last-bottom">
+            <p>湖南海外旅游有限公司 版权所有Copyright@2011-2018 www.hnhwly.com&nbsp;&nbsp;
+                手机版&nbsp;&nbsp;ICP证：湘ICP备14003721-4 旅行社业务经营许可证号:L-HUN-CJ00008</p>
+            <p>法定代表人：蒋燕妮 全国统一旅游投诉电话：12301</p>
+            <p>经营范围：国内旅游、出境旅游、入境旅游、湖南旅游、出境签证、泰国、普吉岛、马尔代夫、韩国</p>
+            <p class="last-la"><img src="img/jc.png" style="height:18px;width:18px" alt="图片未显示"/>
+                <a href="#">&nbsp;&nbsp湘公网安备 43010502000528号</a></p>
+
+        </div>
+    </footer>
+    <!--内容区7-->
+   <!--  <div class="map">
+        <img  src="img/swf119.png" usemap="#use-img" border="0" alt="图片未显示"/>
+        <map name="use-img">
+            <area class="close" shape="rect" coords="463 89 495 118" href="#" alt="close"/>
+            <area shape="rect" coords="301 297 382 324" href="#" alt="msZx"/>
+            <area shape="rect" coords="390 293 472 324" href="#" alt="xhZx"/>
+        </map>
+    </div>
+ -->
+    <!--javascript特效-->
+    <script type="text/javascript">
+        $(function(){
+             //微信二维码
+            $(function(){
+                $('#nav .nav_cont .nav_right a.dl-wx').hover(function(){
+                    $(this).find('div').show();
+                },function(){
+                    $(this).find('div').hide();
+                });
+            });
+            //1,二级菜单开始
+            $('#mu_xl .cont .cont_1 ul.cont_ul li').hover(function(){
+                $(this).addClass('hover').siblings().removeClass();
+                $(this).find('.menu').show();
+            },function(){
+                //$(this).css('background','#cd0071');
+//                $(this).removeClass('hover');
+                $(this).find('.menu').hide();
+            });
+
+            //2,背景轮播图开始
+            var index1 = 0;
+            var timePlay = null;
+            $('#bg .bg1').eq(index1).show().siblings('div').hide();
+            $(' #bg .bg_btn li').hover(function(){
+                //鼠标滑动上面，所要执行的效果。
+                clearInterval(timePlay);//清楚定时播放器
+                index1 = $(this).index();
+                //show()显示 fadeIn()淡入； hide()隐藏 fadeout()淡出。
+                $('#bg .bg1').eq(index1).fadeIn().siblings('div').fadeOut();
+                $(this).addClass('hover_btn').siblings().removeClass('hover_btn');
+            },function(){
+                //鼠标移开，所要执行的效果。
+                autoPlay();//调用播放器。
+            });
+
+            //3,背景轮播图自动轮播
+            function autoPlay(){
+                timePlay = setInterval(function(){
+                    index1++;
+                    if(index1<=7){
+                        $('#bg .bg1').eq(index1).fadeIn().siblings('div').fadeOut();
+                        $(' #bg .bg_btn li').eq(index1).addClass('hover_btn').siblings().removeClass('hover_btn');
+                        if(index1==7){index1=-1;}
+                    }else{index1=-1;}
+                },2000);
+            }
+            autoPlay();
+        });
+        $(function(){
+            $('.main-tour  ul.main-nav-ul li').hover(function(){
+                $(this).addClass('hover-bk');
+                $(this).find('a').css('color','white');
+            },function(){
+                $(this).find('a').css('color','#333');
+                $(this).removeClass('hover-bk');
+            });
+//            第三部分
+            $('.main-tour .main-con-l .main-con-lt .lt-ul li').hover(function(){
+                $(this).addClass('hover-bc');
+                $(this).find('a').css('color','white')
+            },function(){
+                $(this).removeClass('hover-bc');
+                $(this).find('a').css('color','#666')
+            });
+            //        侧边信息栏jquery
+            $('.side ul.side-ul li').hover(function(){
+                $(this).find('div').show();
+            },function(){
+                $(this).find('div').hide();
+            });
+        });
+//        达人旅游部分
+        $(function(){
+            var index3 = 0;
+            $('.tour-dr .tour-f').find('div').eq(0).show();
+            $('.tour-dr .tour-f .tour-list li').hover(function(){
+                index3 = $(this).index();
+                $(this).addClass('hover-tour-list').siblings().removeClass('hover-tour-list');
+                $('.tour-dr .tour-f').children('div').eq(index3).show().siblings('div').hide();
+            },function(){});
+        });
+//内容区7
+        $(function(){
+            $('map area').click(function(){
+                $('.map img').remove();
+            });
+        });
+    </script>
+</body>
+</html>

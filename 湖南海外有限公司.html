@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>湖南海外旅游有限公司</title>
+    <style>
+        *{margin:0;padding:0}
+        body{font-family: '微软雅黑', 'Times New Roman', Times, serif;font-size:14px}
+        a{color:#000;text-decoration:none}
+        .mar-left{margin-left:10px}
+        .clear{clear:both;}
+        /*<!--头部-->*/
+        header{height:100px;width:100%;background:#eaeaea;}
+        header .logo{height:100px;width:1055px;margin:0 auto;}
+        .logo-img{float:left;height:100px;width:558px;}
+        .logo-img img{margin-top:30px;}
+        .logo-text{height:15px;width:370px;margin-top:75px;color:#3d4979;font-weight:bold;}
+        .logo .logo-text{float:right;margin-bottom:5px}
+        /*<!--登录区-->*/
+        .content{width:100%;height:520px;background:url("image/bg-login.jpg") no-repeat;position: relative}
+        .content form{background:rgba(23,48,69,0.8);width:250px;height:250px;position: absolute;top:130px;left:70%;
+                     color:white;}
+        .content form .con-a{float:right;margin:10px 10px 0 0}
+        .content form .con-a a{color:white;text-decoration:underline}
+        .content form .con-b{font-size:13px;font-weight:bold}
+        .content form input{outline:none;height:35px;width:185px;border-radius:5px;margin-top:15px;
+                            border:2px solid #b3b3b3;}
+        .content form input.login-p{padding-left:40px}
+        .login-dl{position: relative}
+        .login-dl .dl{position: absolute;top:20px;left:17px;width:30px;height:30px;
+            background:url(image/sign_icon.png) no-repeat 0 0;}
+        .login-dl .d2{position: absolute;top:74px;left:17px;width:30px;height:30px;
+            background:url(image/sign_icon.png) no-repeat 0 -45px !important;}
+       .content .login-p3{height:35px;width:230px;background:#ffd224;border:none;margin:25px 10px 0 10px;
+                           color:honeydew;}
+        .content .login-p3:hover{background:#ff9419;cursor:pointer}
+        /*<!--底部-->*/
+        .foot{height:180px;width:100%;border:}
+        .foot p,.foot p a{width:500px;height:35px;line-height:35px;text-align:center;font-size:15px;
+            color:#666;margin:0 auto}
+        .foot p:first-child{margin-top:10px}
+        .foot p:nth-child(2) a{color:#000;}
+        .foot p:nth-child(2) a:hover{color:#3f6dcb}
+        .foot p:nth-child(5) a{display:block;height:35px;line-height:35px}
+    </style>
+</head>
+<body>
+    <!--头部-->
+    <header>
+        <div class="logo">
+            <div class="logo-img"><img src="image/logo-l.png" alt="图片未显示"/></div>
+            <div class="logo-text">全国百强旅行社 / 湖南五星级旅行社 / 湖南省名牌产品</div>
+            <div class="clear"></div>
+        </div>
+    </header>
+    <!--&lt;!&ndash;登录区&ndash;&gt;-->
+    <div class="content">
+        <!--<img src="image/bg-login.jpg" alt="图片未显示"/>-->
+        <form action="">
+            <p class="con-a"><a href="#">不知道登陆帐号？</a></p>
+            <div class="clear"></div>
+            <p class="con-b mar-left">系统账号登录</p>
+            <div class="clear"></div>
+            <div class="login-dl">
+                <input class="login-p login-p1 mar-left" type="text" placeholder="账号"/>
+                <span class="dl"></span>
+                <input class="login-p login-p2 mar-left" type="password" placeholder="密码"/>
+                <span class="d2"></span>
+            </div>
+            <input class="login-p3" type="submit" value="登&nbsp;&nbsp;&nbsp;&nbsp;录"/>
+        </form>
+    </div>
+
+    <!--底部-->
+    <div class="foot">
+        <p>技术支持：网络服务中心 陈小村 QQ:358331888 陈颗 QQ:23542564</p>
+        <p>请使用<a href="#">&nbsp;谷歌浏览器&nbsp;</a>以达到最佳使用效果!</p>
+        <p>湘ICP备14003721-3</p>
+        <p> |Copyright © 2008-2018, WWW.HNHWLY.CN, All Rights Reserved</p>
+        <p><a href="#"><img src="image/jc.png" alt="图片未显示"/>湘公网安备 43010502000528号</a></p>
+    </div>
+</body>
+</html>
